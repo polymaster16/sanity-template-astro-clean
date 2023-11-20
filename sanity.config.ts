@@ -1,10 +1,6 @@
 // Different environments use different variables
-const projectId =
-  import.meta.env.PUBLIC_SANITY_STUDIO_PROJECT_ID! ||
-  import.meta.env.PUBLIC_SANITY_PROJECT_ID!;
-const dataset =
-  import.meta.env.PUBLIC_SANITY_STUDIO_DATASET! ||
-  import.meta.env.PUBLIC_SANITY_DATASET!;
+const projectId = 'm93p5d26'
+const dataset = 'production'
 
 // Feel free to remove this check if you don't need it
 if (!projectId || !dataset) {
